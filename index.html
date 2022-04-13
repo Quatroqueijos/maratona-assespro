@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href=".assets/css/style.css">
+
+        <title>SocialBook</title>
+    </head>
+    <body>
+        <!--BARRA DE NAVEGAÇÃO-->
+        <nav>
+            <div class="nav_left">
+                <img src="./assets/img/logo.png" class="logo" alt="Logo barra de navegação">
+                <ul>
+                    <li><img src="./assets/img/notification.png" alt="Icone notificacao"></li>
+                    <li><img src="./assets/img/inbox.png" alt="Icone inbox"></li>
+                    <li><img src="./assets/img/video.png" alt="Icone video"></li>
+                </ul>
+            </div>
+            <div class="nav_right">
+                <div class="search_box">
+                    <img src="./assets/img/search.png" alt="">
+                    <input type="text" placeholder="Pesquisar">
+                </div>
+                <div class="nav_user_icon">
+                    <img src="./assets/img/perfil.jpg" alt="">
+                </div>
+            </div>
+        </nav>
+        <main class="container">
+            <!--CONTEUDO PRINCIPAL-->
+            <section class="mais">
+                <!--CRIAR POST-->
+                <div class="post_container">
+                    <div class="user_profile">
+                        <img src="./assets/img/perfil.jpg" alt="">
+                        
+                        <div>
+                            <p>Nicholas Feliciano</p>
+                        </div>
+                    </div>
+                    
+                    <div class="post_input_container">
+                        <textarea rows="3" placeholder="No que você está pensando?"></textarea>
+                        <div class="add_post_icons">
+                            <a href="./assets/img/live-video.png" alt="">Vídeo ao vivo</a>
+                            <a href="./assets/img/photo.png" alt="">Foto/Vídeo</a>
+                            <a href="./assets/img/feeling.png" alt="">Sentimento/Atividade</a>
+                        </div>
+                    </div>
+                </div>
+                <!--POST CRIADO-->
+                <div class="post_container">
+                    <div class="post_row">
+                        <div class="user_profile">
+                            <img src="./assets/img/perfil.jpg" alt="">
+                        <div>
+                            <p>Nicholas Feliciano</p>
+                            <span>11 de abril às 20:06</span>
+                        </div>
+                        </div>
+                        
+                        <p class="post_description">Se inscreva no curso Fullstack da Kenzie Academy.  <a target="_blank" href="https://kenzie.com.br/">#KenzieMade</a> <a target="_blank" href="https://www.youtube.com/channel/UC6rcCbDzhVoIm1V7WnwPDIQ">#CanalYoutube</a></p>
+                        <img class="post_img" src="./assets/img/feed-image-1.png"alt="Imagem feed">
+                        <div>
+                            <div class="numbers">
+                                <div>
+                                    <span>1.5K</span>
+                                </div>
+                                <div>
+                                    <span>117 Coments</span>
+                                    <span>17 shares</span>
+                                </div>
+                            </div>
+                            <div class="atividade_icons">
+                                <div><img src="./assets/img/like.png" alt=""> Like</div>
+                                <div><img src="./assets/img/comments.png" alt=""> Comment</div>
+                                <div><img src="./assets/img/share.png" alt=""> Share</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="load_more_btn" type="button">Carregar</button>
+            </section>
+        </main>
+        <footer class="footer">
+            <p>Copyright 2022 - Kenzie Academy</p>
+        </footer>
+    </body>
+</html>    

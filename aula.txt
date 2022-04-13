@@ -1,0 +1,26 @@
+Seletores
+
+Seletores
+TAG - Elemento HTML
+CLASSE - Classes de estilos
+ID - Identificador NÃO PODE SER REPETIDO 
+
+
+Exemplo de sintaxe:
+
+SELETOR {
+    toda a estilização deve estar entre chaves
+    PROPRIEDADE: VALOR;
+}
+
+tag {
+    propriedade: valor;
+}
+
+.classe {
+    propriedade: valor;
+}
+
+#id {
+    propriedade: valor;
+}
