@@ -1,4 +1,28 @@
 /**
+ * DOM = Document Object Model
+ * 
+ * // document
+
+/**
+ * document.querySelector("") = seleciona um elemento dentro do HTML e trás pro JS
+ *  document.creatElement = cria um novo elemento HTML
+ * 
+ * elemento.classList = mostra toda a lista de classes de um elemento
+ * elemento.classList.add() = adiciona classes ao elemento
+ * elemento.append() = coloca o novo elemento dentro do elemento selecionado
+ *
+ * elemento.innerText = muda o texto dentro do elemento
+ * elemento.innerHTML = muda o HTML dentro do elemento
+ */
+
+
+/**
+ * EVENT LISTENER = Coloca um ouvinte para escutar o evento.
+ * 
+ */
+
+
+/**
  OPERADORES MATEMÁTICOS
  + soma
  - subtração
